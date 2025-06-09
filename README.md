@@ -22,3 +22,36 @@
 | **.env**         | 🔜 Προγραμματισμένο | Config values                  | Κρυφά credentials / keys (DB_URL, JWT_SECRET)             |
 | **Render / Railway** | 🔜 Προαιρετικό Hosting | Express + Postgres backend | Δωρεάν hosting με CI/CD δυνατότητες                       |
 | **Vercel / Netlify** | 🔜 Προγραμματισμένο | Hosting του React frontend     | Δωρεάν hosting + auto-deploy από Git                      |
+
+# 💸 Broket
+
+**Broket** is a modern, minimal budgeting web app designed for young people who want to track, analyze, and manage their personal finances in a smart and intuitive way.
+
+## 🔍 What it does
+
+- 💰 Add, edit, and delete income and expense entries
+- 📂 Organize spending by categories (e.g. Food, Rent, Transport)
+- 📊 Visualize monthly summaries with charts
+- 📅 Filter transactions by month or category
+- 🚨 Receive alerts when exceeding budget limits
+- 📄 Export data to CSV or PDF (coming soon)
+- 🔐 Secure login using JWT authentication
+
+## 🛠️ Tech Stack
+
+| Layer         | Technologies                                                  |
+|---------------|---------------------------------------------------------------|
+| Frontend      | React + Vite + TypeScript + TailwindCSS + ShadCN UI          |
+| State/Data    | React Query + React Hook Form + Zod                          |
+| Charts        | Recharts / Chart.js                                          |
+| Backend       | Express.js + Node.js + JWT + bcrypt                          |
+| Database      | PostgreSQL + Prisma ORM                                      |
+| Hosting       | Vercel (frontend) + Railway or Render (backend)              |
+
+## 🚀 Goals
+
+- Build a full-stack app without Firebase or third-party auth
+- Practice real-world patterns (auth, form validation, protected routes)
+- Deploy on free tiers with CI/CD pipelines
+- Showcase it in a clean and professional GitHub repo
+
